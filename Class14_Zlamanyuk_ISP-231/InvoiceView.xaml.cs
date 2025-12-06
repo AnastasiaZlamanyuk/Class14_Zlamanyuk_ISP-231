@@ -15,18 +15,11 @@ using System.Windows.Shapes;
 
 namespace Class14_Zlamanyuk_ISP_231
 {
-    public partial class LoginView : UserControl
+    public partial class InvoiceView : UserControl
     {
-        public LoginView()
+        public InvoiceView()
         {
             InitializeComponent();
-
-        }
-
-        private void LogginButton_Click(object sender, RoutedEventArgs e)
-        {
-            Window window = Window.GetWindow(this);
-            window.Content = new InvoiceView();
         }
     }
 }
